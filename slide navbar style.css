@@ -6,7 +6,8 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    /* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
+    background: linear-gradient(to bottom, #145277, #83d0cb);
   }
   .main{
     width: 350px;
@@ -54,18 +55,20 @@ body{
     justify-content: center;
     display: block;
     color: #fff;
-    background: #573b8a;
+    /* background: #573b8a; */
+    background: #145277;
     font-size: 1em;
     font-weight: bold;
     margin-top: 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    transition: .2s ease-in;
+    transition: all .5s ease-in-out;
     cursor: pointer;
   }
   button:hover{
-    background: #6d44b8;
+    /* background: #6d44b8; */
+    background: #83d0cb;
   }
   .login{
     height: 460px;
@@ -75,7 +78,7 @@ body{
     transition: .8s ease-in-out;
   }
   .login label{
-    color: #573b8a;
+    color: #145277;
     transform: scale(.6);
   }
   
